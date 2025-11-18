@@ -24,59 +24,34 @@ The script saves the headlines into **CSV** and **Excel (.xlsx)** files and prin
 
 ## ▶️ How to Run the Script
 
-### 1️⃣ Install Required Libraries
+Run these commands in your terminal:
 
-### 2️⃣ Run the Script
-
-
+```bash
+pip install feedparser pandas openpyxl requests python-dateutil
+python news_scraper.py
+```
 This will:
 
+- Install the required Python libraries  
+- Run the script  
 - Fetch headlines from both RSS sources  
 - Print the top 2 headlines  
-- Save results into:
-  - `news_headlines.csv`
+- Save results into:  
+  - `news_headlines.csv`  
   - `news_headlines.xlsx`
 
----
 
-## 📊 Output Columns
+📊 Output Columns
 
 The generated CSV/Excel files contain:
 
-- `source`
-- `title`
-- `link`
-- `published`
-- `published_dt_iso`
-- `scraped_at`
+- source  
+- title  
+- link  
+- published  
+- published_dt_iso  
+- scraped_at  
 
-Total of **8 headlines** (4 from each source).
+👩‍💻 Author
 
----
-
-## 📸 Screenshots
-
-### Script Running in Terminal
-`Run_Screenshot1.png`
-
-### Additional Output Screenshot
-`Run_Screenshot2.png`
-
----
-
-## 🔧 Optional: Global Mode
-
-To fetch **top 4 headlines overall (across both sources)**:
-
-
----
-
-## 👩‍💻 Author
-
-**Hamsaveni D S**
-
----
-
-Submission complete ✔️
-
-
+Hamsaveni D S
